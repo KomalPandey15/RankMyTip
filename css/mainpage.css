@@ -1,0 +1,255 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.inception-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.inception-tooltip .inception-tooltip-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.inception-tooltip:hover .inception-tooltip-text{
+    visibility: visible;
+}
+
+.success-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.success-tooltip .success-tooltip-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.success-tooltip:hover .success-tooltip-text{
+    visibility: visible;
+}
+
+.art-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.art-tooltip .art-tooltip-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.art-tooltip:hover .art-tooltip-text{
+    visibility: visible;
+}
+
+.rr-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.rr-tooltip .rr-tooltip-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.rr-tooltip:hover .rr-tooltip-text{
+    visibility: visible;
+}
+
+.dd-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.dd-tooltip .dd-tooltip-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.dd-tooltip:hover .dd-tooltip-text{
+    visibility: visible;
+}
+
+.rpl-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.rpl-tooltip .rpl-tooltip-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+.rpl-tooltip:hover .rpl-tooltip-text{
+    visibility: visible;
+}
+
+/* footer */
+
+/* Desktop Menu */
+.jdDesktop {
+    width: 100%;
+    }
+
+    .jdHead {
+      font-family: Open Sans;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.4em;
+      color: rgb(0, 0, 0);
+      padding-bottom: 1em;
+      max-width: 16em;
+
+    }
+    .jdCell {
+        font-family: Open Sans;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 1.4em;
+      padding-bottom: .618em;
+      padding-right:30px;
+
+    }
+
+      /* Mobile Menu */
+      .jdAccordion {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+  }
+
+  .jdActive, .jdAccordion:hover {
+      background-color: #ffffff;
+  }
+
+  .jdAccordion:after {
+      content: '\002B';
+      color:rgb(0, 0, 0);
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+  }
+
+  .jdActive:after {
+    content: "\2212";
+    color: rgb(0, 0, 0);
+  }
+
+  .jdPanel {
+      padding: 5px 18px;
+      background-color: #ffffff;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-out;
+      color: rgb(0, 0, 0);
+  }
+
+      /* Media Queries */
+
+  @media screen and (min-width: 700px) {
+      .jdDesktop {
+          display:block;
+      }
+
+      .jdMobile {
+          display: none;
+      }
+  }
+
+  @media screen and (max-width: 701px) {
+      .jdDesktop {
+          display:none;
+      }
+
+      .jdMobile {
+          display: block;
+      }
+  }
+
+  .jdPanel a, .jdCell a{
+    color: rgb(0, 0, 0);
+  }
